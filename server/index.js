@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 
 const PORT = 4040;
-// const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 app.use(cors());
